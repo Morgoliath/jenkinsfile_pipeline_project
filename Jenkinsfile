@@ -14,5 +14,9 @@ pipeline {
                 sh 'python pipeline.py'
             }
         }
+        stage('run') {
+            steps {
+                echo 'Clarusway_Way to Reinvent Ourself'
+                sh "echo Hello Turker!"
     }
 }
