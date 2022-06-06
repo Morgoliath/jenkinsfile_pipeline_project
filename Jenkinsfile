@@ -18,5 +18,7 @@ pipeline {
             steps {
                 echo 'Clarusway_Way to Reinvent Ourself'
                 sh "echo Hello Turker!"
+            }
+        }
     }
 }
