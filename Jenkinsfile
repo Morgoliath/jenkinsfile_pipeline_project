@@ -16,7 +16,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                echo 'Clarusway_Way to Reinvent Ourself'
+                echo 'Morgoliathway to Reinvent Yourself'
                 sh "echo Hello Turker!"
             }
         }
