@@ -17,7 +17,7 @@ pipeline {
         stage('test') {
             steps {
                 echo 'Morgoliathway to Reinvent Yourself'
-                sh "echo Hello Turker!"
+                sh "echo Hello Turker!!"
             }
         }
     }
